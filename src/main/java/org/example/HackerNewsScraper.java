@@ -20,7 +20,7 @@ public class HackerNewsScraper {
     public static void main(String[] args) {
 
         WebDriverManager.chromedriver().setup();
-        String chromiumPath = "C:\\Users\\andre\\chrome\\win64-127.0.6533.119\\chrome-win64\\chrome.exe";
+        String chromiumPath = ChromeTest_PATH;
 
         ChromeOptions options = new ChromeOptions();
         options.setBinary(chromiumPath);
